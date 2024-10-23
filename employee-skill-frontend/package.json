@@ -1,0 +1,45 @@
+{
+  "name": "employee-skill-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-datepicker": "^4.19.5",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^3.3.1",
+    "framer-motion": "^11.0.5",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-datepicker": "^4.25.0",
+    "react-hook-form": "^7.50.1",
+    "react-icons": "^5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-toastify": "^10.0.4",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

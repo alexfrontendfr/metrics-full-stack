@@ -1,0 +1,23 @@
+# Dependency directories
+/node_modules
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Temporary files
+tmp/
+
+# Database files
+*.sqlite
+/config/master.key
+.env
